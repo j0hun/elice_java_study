@@ -20,9 +20,6 @@ public class Main {
             p.like();
         }
 
-
-
-
         // 지시사항 3번을 참고하여 코드를 작성하세요.
         System.out.println(p.likes);
 
