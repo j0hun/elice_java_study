@@ -11,7 +11,6 @@ class Post {
         return "좋아요 클릭";
     }
 
-
 }
 
 public class Main {
