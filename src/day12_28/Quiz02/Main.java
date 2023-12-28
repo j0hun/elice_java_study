@@ -13,8 +13,7 @@ class NewPlan {
     }
 
     NewPlan(int newst_code) {
-        newst_code+=1;
-        this.code = newst_code;
+        this.code = newst_code + 1;
     }
 
     public void turnOn(String state) {
