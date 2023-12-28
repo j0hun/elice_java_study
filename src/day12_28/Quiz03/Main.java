@@ -15,3 +15,16 @@ class Manufacturer {
         return "부품 확인 완료! 제작에 들어가겠습니다.";
     }
 }
+
+public class Main {
+    public static void main(String args[]) {
+        // 아래 코드는 검사용으로 수정하지 말아주세요
+
+        Manufacturer worker = new Manufacturer();
+
+        System.out.println(worker.procedure());
+        System.out.println(worker.procedure("wheel"));
+        System.out.println(worker.procedure("wheel", "body"));
+        System.out.println(worker.procedure("wheel", "body", "engine"));
+    }
+}
