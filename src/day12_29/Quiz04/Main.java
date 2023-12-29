@@ -4,12 +4,12 @@ package day12_29.Quiz04;
 class Animal{
     public String name;
     public void printAction(){
-        System.out.println("동물이 움직입니다.");
+        System.out.println(name + "이 움직입니다.");
     }
 }
 class Dog extends Animal{
     public void printAction(){
-        System.out.println("멍멍이가 달립니다.");
+        System.out.println(name + "가 달립니다.");
     }
 }
 public class Main {
