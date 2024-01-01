@@ -13,7 +13,6 @@ public class Main {
         }
         solution(arr);
     }
-
     public static void solution(int[] arr) {
         // 여기에 코드를 작성해주세요.
         Arrays.sort(arr);
