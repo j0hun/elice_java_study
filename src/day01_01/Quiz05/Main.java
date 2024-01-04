@@ -36,5 +36,6 @@ public class Main {
 
         Vehicle vehicle = new Vehicle();
         vehicle.printWheels();
+
     }
 }
