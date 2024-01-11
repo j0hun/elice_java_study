@@ -1,4 +1,4 @@
-package day01_08;
+package day01_08.Quiz01;
 
 import java.util.*;
 
